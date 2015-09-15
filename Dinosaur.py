@@ -2,4 +2,4 @@ __author__ = 'Laura'
 
 class dinosaur(object):
     def roar(self):
-        print("Blrblrblrblr!")
+        print("Everybody do the dinosaur!")
