@@ -6,4 +6,4 @@ class dinosaur(object):
         print("Everybody do the dinosaur!")
 
         print("Blrblrblrblr!")
-        print("argharghrgh")
+
