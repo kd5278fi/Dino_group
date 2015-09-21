@@ -3,16 +3,12 @@ __author__ = 'Laura'
 from Weather import weather
 
 class dinosaur(object):
-    def __init__(self, status = "Fine"):
+    def __init__(self, name, status = "Fine"):
         self.status = status
+        self.name = name
 
     def roar(self):
-
-        print("Everybody do the dinorarr!")
-        #Do the thing
-
-
-        print("Blrblrblrblr!")
+        print "I AM " + self.name.upper() + "!!!"
 
     def react(self, weather_object):
         if weather_object.stormy == True:

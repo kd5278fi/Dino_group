@@ -8,10 +8,12 @@ def main():
     new_day.random_weather()
     new_day.weatherman()
 
-    t_rex=dinosaur()
-    velociraptor=dinosaur()
+    t_rex=dinosaur('t-rex')
+    velociraptor=dinosaur('velociraptor')
+
     t_rex.react(new_day)
     t_rex.roar()
+
     velociraptor.react(new_day)
     velociraptor.roar()
 
