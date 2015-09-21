@@ -8,7 +8,9 @@ class dinosaur(object):
 
     def roar(self):
 
-        print("Everybody do the dinosaur!")
+        print("Everybody do the dinorarr!")
+        #Do the thing
+
 
         print("Blrblrblrblr!")
 
